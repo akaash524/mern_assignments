@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <style>
+        h1{
+            background-color: lightgray;
+            color: blue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .points{
+            background-color: lightblue;
+
+        }
+        #additional_info{
+            background-color: lightpink;
+        }
+        #about_me_text{
+            background-color: yellow;
+        }
+
+    </style>
 </head>
 <body style="margin: 50px">
     <div id="main_page">
-        <div id="na" style="text-align: center; font-family: 'Inter', sans-serif; font-weight:700; font-size: 3rem; color: rgba(141, 90, 90, 1);">ADDANI AKAASH</div>
+        <div id="na" style="text-align: center; font-weight:700; font-size: 3rem;"><h1>ADDANI AKAASH</h1></div>
         <p style="margin: 0px; padding: 0px; text-align: center; font-family: 'Inter',sans-serif; font-size: 20px;">Computer Science Undergraduate</p>
         <div id="contact" style="display: flex; flex-wrap: wrap; justify-content: space-between; margin: 30px 200px 0px 200px; font-family: 'Inter', sans-serif; font-size: 16px;">
             <div id="phone_num" style="display: flex; align-items: center; gap: 8px;">
@@ -50,40 +68,42 @@
         <div id="acadimic_project" style="font-family: 'Inter', sans-serif;">
             <p style="color: rgba(141, 90, 90, 1); font-size: 22px; font-weight: 700; margin-bottom: 5px;">ACADEMIC PROJECTS</p>
             <p><b> Smart Ambulance Alert System – Conceptual Prototype </b></p>
-            <div id="points">
+            <div class="points">
                 <ul>
                     <li>
-                        <p>Description: Led the development of a conceptual prototype aimed at enhancing emergency
+                        <p class="proj_desc">Description: Led the development of a conceptual prototype aimed at enhancing emergency
  response efficiency by providing real time alerts to drivers about approaching ambulances.</p>
                     </li>
                     <li>
-                        <p>Technologies Used: [Specify technologies, e.g., web development frameworks, notification
+                        <p class="proj_desc">Technologies Used: [Specify technologies, e.g., web development frameworks, notification
  systems]</p>
                     </li>
                 </ul>
             </div>
             <p><b>E-Diary - Multi-User Application with Custom Security Algorithm</b></p>
-            <div id="points">
+            <div class="points">
+                
                 <ul>
                     <li>
+                        
                         <p> Description: Led the creation of an offline electronic diary application supporting multiple
  user profiles, featuring a custom designed algorithm for secure data insertion and retrieval.</p>
                     </li>
                     <li>
-                        <p>Technologies Used: C programming language, custom security protocols</p>
+                        <p class="proj_desc"> Technologies Used: C programming language, custom security protocols</p>
                     </li>
                 </ul>
             </div>
             <p><b>Assistive Navigation for the Visually Impaired – Hackathon Project (Team Lead)</b></p>
-            <div id="points">
+            <div class="points">
                 <ul>
                     <li>
-                        <p> Description: Led a hackathon project developing a system to aid visually impaired individuals
+                        <p class="proj_desc"> Description: Led a hackathon project developing a system to aid visually impaired individuals
  in navigation using QR codes and voice commands, successfully advancing past the first
  round. </p>
                     </li>
                     <li>
-                        <p>Technologies Used: QR code generation and scanning, voice recognition software</p>
+                        <p class="proj_desc">Technologies Used: QR code generation and scanning, voice recognition software</p>
                     </li>
                 </ul>
             </div>
