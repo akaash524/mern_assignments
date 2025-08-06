@@ -26,7 +26,6 @@ body{
 }
 #main {
     margin-top: 10px;
-
     height: 25rem;
     background-color: rgb(52, 52, 52);
 }
@@ -36,8 +35,8 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 4rem;
     font-weight: 800;
-    padding-top: 120px;
-    padding-left: 50px;
+    padding-top: 50px;
+    padding-left: 10px;
     color: aliceblue;
     margin-left: 100px;
 }
@@ -73,6 +72,7 @@ body{
     padding-top:30px;
 }
 #left_main {
+    margin-top: 10px;
     width: 60%;
     float: left;
 }
