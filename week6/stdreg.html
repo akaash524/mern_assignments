@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="reg_div">
+        <h2 style="color: rgb(0, 145, 255);">Student Registration Form</h2>
+        <form method="/" onsubmit="return validate()">
+            <table>
+            <tr>
+                <td><label for="fname">Full Name</label></td>
+                <td><input id="fname" type="text">
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input id="mail_id" type="email"></td>
+            </tr>
+            <tr>
+                <td><label for="age">Age</label></td>
+                <td><input id="age" type="text" placeholder=""></td>
+            </tr>
+            <tr>    
+                <td><label for="phno">Phone Number</label></td>
+                <td><input id="phno" type="tel"></td>
+            </tr>
+            <tr>
+                <td><label  for="password">Password</label></td>
+                <td><input id="pass" type="password"></td>
+            </tr>
+            <tr>
+                <td><label for="cpassword">Confirm Password</label></td>
+                <td><input id="cpass" type="password"></td>
+            </tr>
+            <tr>
+
+            </tr>
+            </table>
+            <p id="error_msg" style="font-family: 'Lucida Sans'; color: red; text-shadow: 5px;"></p>
+            <input id="sub" type="submit" >
+        </form>
+    </div>
+    <script src="valid.js"></script>
+</body>
+</html>
